@@ -1,2 +1,2 @@
 # python-course
-(Informacion en español) Ejercicios básicos de practicas creadas con el fin de practicar Python
+Este repositorio es meramente de practica con el fin de ejercitar python, tambien como base de muestra

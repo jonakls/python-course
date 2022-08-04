@@ -1,7 +1,7 @@
 
 # Abstraccion basica de estudiante con datos basicos (Nombre, identificador y grados)
 
-class Student():
+class Student:
 
     def __init__(self, name, id, grades):
         self.__name = name

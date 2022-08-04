@@ -2,12 +2,12 @@
 
 import student
 
+
 class University(student.Student):
     def __init__(self, name, id, grades, level, name_university):
         super().__init__(name, id, grades)
         self.__level = level
         self.__name_university = name_university
-
 
     def get_level(self):
         return self.__level

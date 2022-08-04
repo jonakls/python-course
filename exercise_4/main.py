@@ -15,6 +15,7 @@
 import student as st
 import university as uni
 
+
 def students_grades(grades):
     line = ""
     while line != "exit":
@@ -31,8 +32,8 @@ def students_grades(grades):
             break
     return grades
 
-def main():
 
+def main():
     menu_message = """
     WELCOME TO THE STUDENT CRAZY SYSTEM
 
@@ -57,13 +58,14 @@ def main():
 
             university = uni.University(name, id, grades, university_level, university_name)
             print(university.__str__())
+        elif option == "3":
+            print('Bye!')
+            break
         else:
             print("Invalid option")
         print(menu_message)
         option = input("Enter your option: ")
     print("Bye!")
+
+
 main()
-
-
-
-
